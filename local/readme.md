@@ -1,7 +1,7 @@
 # Notes
 - Use v2, not v1. v1 is only there in case v2 no longer works.
 # Example Output
-## [Collection Price Scraper](https://github.com/replacementAI/CSGO-Steam-Market-Scrapers/blob/main/local/Collection%20Price%20Scraper.py)
+## [Case Price Scraper](https://github.com/replacementAI/CSGO-Steam-Market-Scrapers/blob/main/local/Case%20Price%20Scraper.py)
 Weapon _ Skin Name (Wear).csv
 | date                | price  | volume |
 |---------------------|--------|--------|
