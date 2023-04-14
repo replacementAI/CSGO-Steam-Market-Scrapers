@@ -10,6 +10,6 @@ Weapon _ Skin Name (Wear).csv
 | 2023-02-11 00:00:00 | 20.675 | 12     |
 | ...                 | ...    | ...    |
 ## [LOB Scraper](https://github.com/replacementAI/CSGO-Steam-Market-Scrapers/blob/main/local/LOB%20Scraper%20v2.py)
-| buy_price | buy_volume | sell_price | sell_volume |
-|------------|-------------|-------------|-------------|
-| 2.61       | 7           | 2.69        | 1           |
+| date | buy_price | buy_volume | sell_price | sell_volume |
+|-|------------|-------------|-------------|-------------|
+|| 2.61       | 7           | 2.69        | 1           |
