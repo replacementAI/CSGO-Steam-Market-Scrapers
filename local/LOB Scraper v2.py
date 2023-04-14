@@ -16,7 +16,7 @@ def get_item_nameid(URL):
     return item_nameid
 
 def scrape(URL, dataframe, timeout=600):
-    item_nameid = get_item_nameid('https://steamcommunity.com/market/listings/730/MAG-7%20%7C%20Insomnia%20%28Factory%20New%29')
+    item_nameid = get_item_nameid(URL)
 
     baseURL = 'https://steamcommunity.com/market/itemordershistogram?country=US&language=english&currency=1&item_nameid=' + item_nameid + '&two_factor=0'
 
@@ -58,6 +58,6 @@ def scrape(URL, dataframe, timeout=600):
 
 dataframe = pd.DataFrame(columns=['date', 'buy_price', 'buy_volume', 'sell_price', 'sell_volume'])
 
-URL = 'https://steamcommunity.com/market/listings/730/MAG-7%20%7C%20Insomnia%20%28Factory%20New%29'
+URL = 'https://steamcommunity.com/market/listings/730/MAG-7%20%7C%20Insomnia%20%28Factory%20New%29' #change this to the URL you wanna scrape
 
 scrape(URL, dataframe)
