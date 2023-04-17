@@ -1,4 +1,4 @@
-# CSGO-Steam-Market-Scrapers
+# CSGO Steam Market Scrapers
 Python scripts to scrape CSGO items on the steam market place
 
 For scripts you want to run [locally]()
